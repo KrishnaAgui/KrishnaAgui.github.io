@@ -1,0 +1,59 @@
+/* GENERAL ELEMENTS */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(25, 17, 17);
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    background: linear-gradient(90deg, #3a0d0d 0%, #7a1f1f 60%, #a83232 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* CLASSES */
+.button-container {
+    display: flex;
+    gap: 16px;
+}
+
+.h-name {
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.button-container button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #d47c50;
+    border-radius: 6px;
+    padding: 10px 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.button-container button:hover {
+    background: rgba(168, 50, 50, 0.623);
+    color: #fff;
+    border-color: #fff;
+}
+
+.showcase {
+    padding: 50px;
+}
+
+.home-showcase {
+    height: 450px;
+    background-color:grey;
+    background-size: cover;
+    margin: 20px;
+}
