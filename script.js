@@ -105,7 +105,7 @@ let showcasePage = header +
                         <span class="art-title">Geist (commission work)</span>
                         <span class="art-desc">
                             Digital Art | 2025<br><br>
-                            A commissioned artwork of an online user's (UniKorpi20) character. The keyword they gave me was a "dreamscape forest", so I focused more on the mystical and "ghostly" entities surrounding the character, as well as them interacting with one.
+                            A commissioned artwork of an online user's (UniKorpi) character. The keyword they gave me was a "dreamscape forest", so I focused more on the mystical and "ghostly" entities surrounding the character, as well as them interacting with one.
                         </span>
                     </div>
                 </div>
