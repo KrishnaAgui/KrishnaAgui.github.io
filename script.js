@@ -17,6 +17,21 @@ let header =
 // Landing/home page
 let landingPage = header +
 `
+<div class="home-showcase">
+    <img id="h-cglow" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png"></img>
+        <div class="home-header fade-in">
+            <h1>
+                KRISTHNA AGUINALDO<BR>
+                PORTFOLIO
+            </h1>
+        </div>
+    </div>
+</div>
+`
+
+// 2D Showcase Page
+let showcasePage = header +
+`
 <div class="showcase">
     <div class="gallery">
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png">
@@ -114,7 +129,6 @@ function setupLightbox() {
     });
 }
 
-setupLightbox();
 
 // Header button function
 function buttonClick(section) {
@@ -123,8 +137,9 @@ function buttonClick(section) {
             null;
         case 'Projects':
             null;
-        case '2D':
-            null;
+        case 'Projects':
+            body.innerHTML = showcasePage;
+            setupLightbox();
         case '3D':
             null;
         case 'About':
