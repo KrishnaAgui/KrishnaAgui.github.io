@@ -50,6 +50,16 @@ let showcasePage = header +
             </div>
             <h1 class="showcase-section-break">ILLUSTRATIONS<h1>
             <div class="gallery">
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png">
+                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png" alt="Geist (commission work)">
+                    <div class="caption">
+                        <span class="art-title">Geist (commission work)</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            A commissioned artwork of an online user's (UniKorpi) character. The keyword they gave me was a "dreamscape forest", so I focused more on the mystical and "ghostly" entities surrounding the character, as well as them interacting with one.
+                        </span>
+                    </div>
+                </div>
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png">
                     <img id="cglow" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png" alt="Crimson Glow">
                     <div class="caption">
@@ -99,17 +109,6 @@ let showcasePage = header +
                         </span>
                     </div>
                 </div>
-                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png">
-                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png" alt="Geist (commission work)">
-                    <div class="caption">
-                        <span class="art-title">Geist (commission work)</span>
-                        <span class="art-desc">
-                            Digital Art | 2025<br><br>
-                            A commissioned artwork of an online user's (UniKorpi) character. The keyword they gave me was a "dreamscape forest", so I focused more on the mystical and "ghostly" entities surrounding the character, as well as them interacting with one.
-                        </span>
-                    </div>
-                </div>
-
             </div>
             <!-- Lightbox modal -->
             <div id="lightbox" class="lightbox">
