@@ -230,6 +230,21 @@ h1 {
     padding: 20px 0px 0px 0px;
 }
 
+.about-page {
+    background: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px 40px;
+    margin: 20px 50px;
+    text-align: center;
+    display: block;
+}
+
+.about-page p {
+    margin: auto;
+    text-align: center;
+}
+
 /* ID ELEMENTS */
 #h-cglow {
     width: 100%;
