@@ -33,6 +33,18 @@ let landingPage = header +
 let showcasePage = header +
 `
 <div class="showcase">
+            <h1 class="showcase-section-break">CREATIVE WEBSITES</h1>
+            <div class="website-showcase">
+                <div class="w-preview">
+                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Rift%20Watch%20preview.png">
+                </div>
+                <div class="w-caption">
+                    <h1 class="w-title">The Rift Watch Database</h1>
+                    <span class="w-desc">
+
+                    </span>
+                </div>
+            </div>
             <h1 class="showcase-section-break">ILLUSTRATIONS<h1>
             <div class="gallery">
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png">
@@ -102,7 +114,7 @@ let showcasePage = header +
                 <img class="lightbox-img" id="lightbox-img" src="" alt="Artwork enlarged">
                 <div class="lightbox-caption" id="lightbox-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi.</div>
             </div>
-`
+`;
 
 // about page
 let aboutPage = header +
