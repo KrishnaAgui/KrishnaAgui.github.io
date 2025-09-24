@@ -262,6 +262,33 @@ a:visited {
     margin: 20px 50px;
 }
 
+.website-showcase {
+    display: flex;
+    margin: 32px auto;
+
+}
+
+.w-preview img {
+    width: 630px;
+}
+
+.w-caption {
+    margin: 0 15px;
+    width: 55vw;
+    background: rgb(60, 49, 49);
+}
+
+.w-title {
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    font-size: 30px;
+}
+
+.w-desc {
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+}
+
 /* ID ELEMENTS */
 #h-cglow {
     width: 100%;
@@ -279,7 +306,7 @@ a:visited {
 .fade-in {
     opacity: 0;
     animation: fadeIn 1s ease forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 /* KEYFRAMES */

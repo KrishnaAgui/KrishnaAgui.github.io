@@ -21,7 +21,8 @@ let landingPage = header +
     <img id="h-cglow" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png"></img>
         <div class="home-header fade-in">
             <h1>
-                KRISHNA AGUINALDO<BR>
+                KRISHNA AGUINALDO<br>
+                ENVIRONMENT ARTIST<br>
                 PORTFOLIO
             </h1>
         </div>
@@ -39,10 +40,12 @@ let showcasePage = header +
                     <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Rift%20Watch%20preview.png">
                 </div>
                 <div class="w-caption">
-                    <h1 class="w-title">The Rift Watch Database</h1>
-                    <span class="w-desc">
-
-                    </span>
+                    <h1 class="w-title">The Rift Watch Database (2025)</h1>
+                    <div class="w-desc"><p>
+                    Accessible <a href="https://impaero.github.io/sea-manifestation">here.</a><br><br>
+                    This is a project that I made while I was in my "Simulations and Worldbuilding" class, where we focused on creating a world and simulating it through a lens of a media. I decided to do a website, since I think it would be an interesting form to frame this world.
+                    <br>Essentially, it is a database of "manifestations" - entities that have exited through a rift which are spawned out of human consciousness. It is mainly themed around the Jung's "collective unconscious", as well as merging that idea with the fact that the ocean is one that we do not fully know about.
+                    </p></div>
                 </div>
             </div>
             <h1 class="showcase-section-break">ILLUSTRATIONS<h1>
@@ -196,13 +199,17 @@ function buttonClick(section) {
     switch (section) {
         case 'Home':
             body.innerHTML = landingPage;
+            break;
         case 'Projects':
             body.innerHTML = showcasePage;
             setupLightbox();
+            break;
         case '3D':
             null;
+            break;
         case 'About':
             body.innerHTML = aboutPage;
+            break;
         default: 
             break;
     }
