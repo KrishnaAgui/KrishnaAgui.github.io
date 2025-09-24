@@ -23,12 +23,12 @@ h1 {
 }
 
 a:link {
-    color: rgb(94, 113, 216);
+    color: rgb(246, 95, 95);
     text-decoration: underline;
 }
 
 a:visited {
-    color: rgb(123, 103, 216);
+    color: rgb(235, 125, 66);
 }
 
 /* CLASSES */
