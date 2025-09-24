@@ -27,7 +27,7 @@ let landingPage = header +
         </div>
     </div>
 </div>
-`
+`;
 
 // 2D Showcase Page
 let showcasePage = header +
