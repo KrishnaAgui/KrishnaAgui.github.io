@@ -22,6 +22,15 @@ h1 {
     font-weight: bold;
 }
 
+a:link {
+    color: rgb(94, 113, 216);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(123, 103, 216);
+}
+
 /* CLASSES */
 .button-container {
     display: flex;
@@ -243,6 +252,14 @@ h1 {
 .about-page p {
     margin: auto;
     text-align: center;
+}
+
+.contact-info {
+    background: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 0 40px 20px 40px;
+    margin: 20px 50px;
 }
 
 /* ID ELEMENTS */

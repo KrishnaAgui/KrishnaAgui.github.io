@@ -109,7 +109,18 @@ let aboutPage = header +
 `
 <div class="about-page">
     <h1>About Me</h1>
-    <p>I am a virtual environmental artist who specialises in both 2D and 3D environmental and conceptual design in interactive media, such as games. I use programs such as Unity, Autodesk Maya, and Blender in order to create environments that can immerse and enhance the experience of the audience. I am passionate about making concepts come to life, and making them real. I am a focused, empathetic individual who gives great attention to detail to all creations that I make.
+    <p>I am a virtual environmental artist who specialises in both 2D and 3D environmental and conceptual design in 
+    interactive media, such as games. I use programs such as Unity, Autodesk Maya, and Blender in order to create 
+    environments that can immerse and enhance the experience of the audience. I am passionate about making concepts 
+    come to life, and making them real. I am a focused, empathetic individual who gives great attention to detail to 
+    all creations that I make.</p>
+</div>
+<div class="contact-info">
+    <br><p>Contact me at:</p>
+    <ul>
+        <li>Email: krishna.agui@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/krishna-aguinaldo/">LinkedIn</a></li>
+    </ul>
 </div>
 `;
 
