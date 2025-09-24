@@ -183,7 +183,7 @@ function setupLightbox() {
 function buttonClick(section) {
     switch (section) {
         case 'Home':
-            null;
+            body.innerHTML = landingPage;
         case 'Projects':
             body.innerHTML = showcasePage;
             setupLightbox();
