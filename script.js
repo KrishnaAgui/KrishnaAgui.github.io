@@ -34,30 +34,48 @@ let landingPage = header +
 let showcasePage = header +
 `
 <div class="showcase">
-            <h1 class="showcase-section-break">CREATIVE WEBSITES</h1>
-            <div class="website-showcase">
-                <div class="w-preview">
-                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Rift%20Watch%20preview.png">
-                </div>
-                <div class="w-caption">
-                    <h1 class="w-title">The Rift Watch Database (2025)</h1>
-                    <div class="w-desc"><p>
-                    Accessible <a href="https://impaero.github.io/sea-manifestation">here.</a><br><br>
-                    This is a project that I made while I was in my "Simulations and Worldbuilding" class, where we focused on creating a world and simulating it through a lens of a media. I decided to do a website, since I think it would be an interesting form to frame this world.
-                    <br>Essentially, it is a database of "manifestations" - entities that have exited through a rift which are spawned out of human consciousness. It is mainly themed around the Jung's "collective unconscious", as well as merging that idea with the fact that the ocean is one that we do not fully know about.
+            <h1 class="showcase-section-break">ONGOING PROJECTS</h1>
+            <div class="project-showcase">
+                <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/game/placeholderlogo.png">
+                <div class="p-caption">
+                    <h1 class="p-title">Defrosting (name to be properly determined)</h1>
+                    <div class="p-desc"><p>
+                        "Defrosting" is an ongoing project of mine that is currently in early development. 
+                        Inspired by The Planets suite by Gustav Holst among other things, this project will be a 2D metroidvania game.
+                        <br><br>
+                        Click <button class="link-button" onclick="buttonClick('Empyre')">here</button> to see the ongoing development.
                     </p></div>
                 </div>
             </div>
             <h1 class="showcase-section-break">ILLUSTRATIONS<h1>
             <div class="gallery">
-                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png">
-                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png" alt="Geist (commission work)">
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Skittles251.png">
+                    <img id="skittles251" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Skittles251.png" alt="A stroll within a Cyberpunk world (commission work)">
                     <div class="caption">
-                        <span class="art-title">Geist (commission work)</span>
+                        <span class="art-title">A stroll within a Cyberpunk world (commissioned work)</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            A commissioned artwork for an online user, who goes by "Skittles251" on Flight Rising, of their character for their Shadowrun game. They commissioned me to depict their character in a cyberpunk/futuristic setting, as well as giving a proper visual for their character.
+                        </span>
+                    </div>
+                </div>
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png">
+                    <img id="geist" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Unikorpi%20-%20Geist.png" alt="Geist (commission work)">
+                    <div class="caption">
+                        <span class="art-title">Geist (commissioned work)</span>
                         <span class="art-desc">
                             Digital Art | 2025<br><br>
                             A commissioned artwork of an online user's (UniKorpi) character. The keyword they gave me was a "dreamscape forest", so I focused more on the mystical and "ghostly" entities surrounding the character, as well as them interacting with one.
                         </span>
+                    </div>
+                </div>
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/DireMiraidon.png">
+                    <img id="diremiraidon" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/DireMiraidon.png" alt="Dragon Rider (commission work)">
+                    <div class="caption">
+                        <span class="art-title">Dragon Rider (commissioned work)</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            A commissioned artwork for an online user, who goes by "Argent_Shantien" on Twitter, of their characters going through a storm. With the focus on the characters, I made the amount of details contrast the background, and the lightning strike highlighting both of the characters.
                     </div>
                 </div>
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/crimson%20glow%20(week2).png">
@@ -68,6 +86,25 @@ let showcasePage = header +
                             Digital Art | 2022<br><br>
                             This artwork was first created by a vision of red crystals. At the time, I was not exactly sure on what it was, until I created a world revolving around it.
                         </span>
+                    </div>
+                </div>
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/green%20lake.png">
+                    <img id="greenlake" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/green%20lake.png" alt="Green Lake">
+                    <div class="caption">
+                        <span class="art-title">Green Lake</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            I made this artwork in order to have some form of visual for a homeland of a character I had created. He is supposed to live within some form of mangrove, but not within a swamp. Coupled with sheer greenery, this created a sense of liveliness within the environment.
+                        </span>
+                    </div>
+                </div>
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/environmental%20doodle%201.png">
+                    <img id="envirodoodle1" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/environmental%20doodle%201.png" alt="Freeform Environment 1">
+                    <div class="caption">
+                        <span class="art-title">Freeform Environment Design</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            This was a free-form style of environmental design, where I just let my brain draw whatever it comes to mind, without worrying too much as to what it is used for. This is the first I have created.
                     </div>
                 </div>
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/liberty%20but%20with%20rl%20sig.png">
@@ -90,7 +127,7 @@ let showcasePage = header +
                     </div>
                 </div>
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/dark%20forest.png">
-                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/dark%20forest.png" alt="Walking through the Dark Forest">
+                    <img id="dforest" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/dark%20forest.png" alt="Walking through the Dark Forest">
                     <div class="caption">
                         <span class="art-title">Walking through the dark forest</span>
                         <span class="art-desc">
@@ -100,7 +137,7 @@ let showcasePage = header +
                     </div>
                 </div>
                 <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Aeolus%20III.png">
-                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Aeolus%20III.png" alt="Aeolus">
+                    <img id="aeolus" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Aeolus%20III.png" alt="Aeolus">
                     <div class="caption">
                         <span class="art-title">Aeolus</span>
                         <span class="art-desc">
@@ -108,6 +145,40 @@ let showcasePage = header +
                             Based on my own version of Flight Rising's world, this was a depiction of one of my own dragons, Aeolus. The winds and air are the focus, since he is a wind elemental dragon, focused on other's freedom.
                         </span>
                     </div>
+                </div>
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/kraken.png">
+                    <img id="kraken" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/kraken.png" alt="Kraken">
+                    <div class="caption">
+                        <span class="art-title">Kraken</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            An artwork depicting of a dragon from a Flight Rising user, by the name of MilkyKoi. I took creative liberties with their dragon, aiming to highlight their water powers, and accurately depicting their namesake.
+                        </span>
+                    </div>
+                </div>
+                <div class="artwork" data-img="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/nocturnum.png">
+                    <img id="nocturnum" src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/nocturnum.png" alt="Nocturnum">
+                    <div class="caption">
+                        <span class="art-title">Nocturnum</span>
+                        <span class="art-desc">
+                            Digital Art | 2025<br><br>
+                            An artwork depicting of a dragon from a Flight Rising user, by the name of Spuddicus. I aimed to capture the eternal darkness that this dragon's impression gives off, their bioluminescent features only being shown fully in the night.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <h1 class="showcase-section-break">CREATIVE WEBSITES</h1>
+            <div class="website-showcase">
+                <div class="w-preview">
+                    <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/Rift%20Watch%20preview.png">
+                </div>
+                <div class="w-caption">
+                    <h1 class="w-title">The Rift Watch Database (2025)</h1>
+                    <div class="w-desc"><p>
+                    Accessible <a href="https://impaero.github.io/sea-manifestation">here.</a><br><br>
+                    This is a project that I made while I was in my "Simulations and Worldbuilding" class, where we focused on creating a world and simulating it through a lens of a media. I decided to do a website, since I think it would be an interesting form to frame this world.
+                    <br>Essentially, it is a database of "manifestations" - entities that have exited through a rift which are spawned out of human consciousness. It is mainly themed around the Jung's "collective unconscious", as well as merging that idea with the fact that the ocean is one that we do not fully know about.
+                    </p></div>
                 </div>
             </div>
             <!-- Lightbox modal -->
@@ -122,19 +193,69 @@ let showcasePage = header +
 let aboutPage = header +
 `
 <div class="about-page">
-    <h1>About Me</h1>
-    <p>I am a virtual environmental artist who specialises in both 2D and 3D environmental and conceptual design in 
-    interactive media, such as games. I use programs such as Unity, Autodesk Maya, and Blender in order to create 
-    environments that can immerse and enhance the experience of the audience. I am passionate about making concepts 
-    come to life, and making them real. I am a focused, empathetic individual who gives great attention to detail to 
-    all creations that I make.</p>
-</div>
-<div class="contact-info">
-    <br><p>Contact me at:</p>
-    <ul>
-        <li>Email: krishna.agui@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/krishna-aguinaldo/">LinkedIn</a></li>
-    </ul>
+            <div class="about-page-text">
+                <h1>About Me</h1>
+                <p>Krishna is an illustrator who specialises in conceptual art, particularly with designing characters and environments. 
+                    She has experience in both 2D illustrations and 3D modelling and virtual environment design in game development. 
+                    She aims to create immersive worlds through embedding storytelling within the designs, in order to enhance the
+                    audience's experience with the media. Bringing concepts to life, she is a focused and empathetic artist who
+                    gives great attention to detail to all creations she makes.
+                </p>
+            </div>
+            <img class="about-page-img" src="https://file.garden/aGKU5gK8lRt7Hupy/other/wohitme.png" height="250px">
+        </div>
+        <div class="contact-info">
+            <br><p>Contact me at:</p>
+            <ul>
+                <li>Email: krishna.agui@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/krishna-aguinaldo/">LinkedIn</a></li>
+            </ul>
+        </div>
+`;
+
+// Defrosting (game) dev page
+let defrostingPage = header +
+`
+<div class="showcase">
+<h1 class="showcase-section-break">DEFROSTING — DEVELOPMENT</h1>
+    <div class="defrosting-intro">
+        <p>
+        Welcome to the Defrosting development page. This project is currently on its very early 
+        stages (ideation/concept designing the areas and characters), but I aim to have a 
+        working early prototype sometime around either the end of 2025, or early 2026.
+        <br><br>
+        The name of the game is subject to change. 
+        </p>
+    </div>
+    <section class="defrosting-devlog">
+        <h2>Conceptual progress</h2>
+        <article class="dev-entry"><p>
+            <u>October 2025</u><br><br>
+            For the concepts I have came up with, most of them are currently in my books, which
+            are mostly illegible. Here are some that I have refined digitally:
+        </p>
+            <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/game/concepts/PH-03%20early%20concept.png">
+        <p>The above sketches depict the player character, by the name of PH-03 
+            (name subject to change). A robot with simplistic body and some key defining 
+            features would allow me to easily replicate them when I have to eventually animate
+            them, as well as designing their movesets, since I plan to have a combat system.
+        </p>
+            <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/game/concepts/planet%20core%20concept.png">
+            <img src="https://file.garden/aGKU5gK8lRt7Hupy/folio%20showcase/game/concepts/Jupiter.png">
+        <p> The two sketches above are the environmental concepts that I have came up with
+            the setting's "core" and one of the seven areas, which I have "Jupiter" as its 
+            codename. For the "core", it is basically where the planet's core is, not too
+            dissimilar to our own Earth's core. I am still playing around whether the core itself
+            is something different (like a star, which is improbable but interesting for it to
+            be implemented) or not, but the huge gist of the world is that the core is slowly
+            dying off, the planet being unable to give itself and its surface heat needed for
+            those on the surface to survive.<br><br>
+            For "Jupiter", with Gustav Holst's "Jupiter, Bringer of Jollity", as well as its historical
+            inspirations, I aimed for this area to me more grandiose and antique, in a sense.
+        </p>
+        </article>
+    </section>
+    </div>
 </div>
 `;
 
@@ -201,6 +322,11 @@ function buttonClick(section) {
             break;
         case 'Projects':
             body.innerHTML = showcasePage;
+            setupLightbox();
+            break;
+        case 'Empyre':
+            body.innerHTML = defrostingPage;
+            // Defrosting page has a screenshots gallery that uses the same lightbox logic
             setupLightbox();
             break;
         case '3D':

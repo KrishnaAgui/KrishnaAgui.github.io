@@ -3,6 +3,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(25, 17, 17);
     color: white;
+    width: 100%;
 }
 
 header {
@@ -29,6 +30,10 @@ a:link {
 
 a:visited {
     color: rgb(235, 125, 66);
+}
+
+ul {
+    margin: 10px 30px;
 }
 
 /* CLASSES */
@@ -245,13 +250,19 @@ a:visited {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 20px 40px;
     margin: 20px 50px;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-page-text{
     display: block;
 }
 
 .about-page p {
-    margin: auto;
-    text-align: center;
+    margin: 10px 0px;
+    text-align: left;
+    display: block;
 }
 
 .contact-info {
@@ -266,6 +277,27 @@ a:visited {
     display: flex;
     margin: 32px auto;
 
+}
+
+.project-showcase {
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(60, 49, 49);
+}
+
+.project-showcase img {
+    margin: 0px 50px;
+}
+
+.p-title {
+    margin: 10px;
+    padding-right: 200px;
+    font-size: 30px;
+}
+
+.p-desc {
+    margin: 10px;
 }
 
 .w-preview img {
@@ -317,4 +349,53 @@ a:visited {
     to {
         opacity: 1;
     }
+}
+
+/* Defrosting page layout helpers (moved from inline styles) */
+.defrosting-intro {
+    max-width: 900px;
+    margin: 18px auto;
+    padding: 0 18px;
+}
+.defrosting-devlog {
+    max-width: 900px;
+    margin: 12px auto;
+    padding: 0 18px;
+}
+
+.defrosting-devlog h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.dev-entry p {
+    padding: 15px 0px 30px 0px;
+    margin: 15px 0;
+}
+
+.dev-entry img {
+    width: 900px;
+}
+
+.dev-entry img {
+    margin: 10px 0px;
+}
+
+/* Link-styled button: looks like an <a> but behaves like a button */
+.link-button {
+    background: transparent;
+    border: none;
+    color: rgb(246, 95, 95); 
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font: inherit; /* inherit size/weight from surrounding text */
+}
+.link-button:focus {
+    outline: 2px solid rgb(201, 71, 71);
+    outline-offset: 2px;
+}
+.link-button:hover {
+    color: rgb(244, 138, 123);
 }
